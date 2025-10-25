@@ -1,8 +1,8 @@
 HUBBLE TENSION RESEARCH PACKAGE - FILE MANIFEST
 ================================================
 Author: Eric D. Martin
-Email: eric.martin1@wsu.edu
-Institution: Washington State University, Vancouver
+Email: 
+Institution: 
 
 SHA-256 CHECKSUMS
 -----------------

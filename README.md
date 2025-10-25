@@ -3,8 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.17322471.svg)](https://doi.org/10.5281/zenodo.17322471)
 
 **Eric D. Martin**
-Washington State University, Vancouver
-eric.martin1@wsu.edu
+catch@aybllc.org
 
 ---
 
@@ -146,8 +145,8 @@ This is tractable PhD-level work with clear path to completion.
 ## Contact
 
 **Eric D. Martin**
-Washington State University, Vancouver
-eric.martin1@wsu.edu
+
+
 
 For questions about:
 - **Framework**: See `/01_core_framework/` and `FRAMEWORK_CLAIM.md`

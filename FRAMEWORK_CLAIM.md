@@ -85,8 +85,8 @@ This work demonstrates:
 ## Contact
 
 Eric D. Martin
-Washington State University, Vancouver
-eric.martin1@wsu.edu
+
+
 
 ---
 
