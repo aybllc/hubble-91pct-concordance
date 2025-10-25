@@ -1,0 +1,102 @@
+{
+  "test_suite_summary": {
+    "total_tests": 70054,
+    "test_categories": {
+      "addition_vs_gaussian": 8000,
+      "multiplication_vs_gaussian": 30000,
+      "interval_consistency": 30000,
+      "chain_products": 3200,
+      "monte_carlo_comparison": 24,
+      "invariant_preservation": 54,
+      "associativity_checks": 20000
+    },
+    "failures": 0,
+    "validation_date": "2025-09-26",
+    "rng_seed": 20250926
+  },
+  "addition_tests": {
+    "method": "N/U vs Gaussian RSS",
+    "test_count": 8000,
+    "ratio_nu_to_rss": {
+      "min": 1.00,
+      "median": 1.74,
+      "max": 3.54
+    },
+    "result": "N/U always ≥ RSS (conservative)"
+  },
+  "multiplication_tests": {
+    "method": "N/U vs First-Order Gaussian",
+    "test_count": 30000,
+    "ratio_nu_to_gaussian": {
+      "min": 1.00,
+      "median": 1.001,
+      "max": 1.41,
+      "theoretical_cap": 1.414
+    },
+    "result": "N/U always ≥ Gaussian (conservative)"
+  },
+  "interval_consistency": {
+    "method": "N/U vs Exact Interval Half-Width",
+    "test_count": 30000,
+    "condition": "n₁,n₂ ≥ 0",
+    "max_relative_error": 1.4e-4,
+    "error_attribution": "Floating-point precision",
+    "result": "Matches interval arithmetic within FP error"
+  },
+  "chain_product_stability": {
+    "chain_lengths": [3, 5, 10, 20],
+    "trials_per_length": 800,
+    "total_tests": 3200,
+    "nu_vs_interval_ratio": {
+      "min": 0.999999986,
+      "max": 1.000000014
+    },
+    "max_difference": 1.7e-12,
+    "result": "Stable under repeated composition"
+  },
+  "monte_carlo_comparison": {
+    "experiments": 24,
+    "distributions": ["Gaussian", "Uniform", "Laplace", "Student-t"],
+    "samples_per_experiment": 30000,
+    "nu_vs_mc_std_margin": {
+      "min": 0.69,
+      "max": 4.24
+    },
+    "result": "N/U always > MC std dev (no counterexamples)"
+  },
+  "invariant_tests": {
+    "grid_points": 54,
+    "catch_operator": {
+      "max_absolute_error": 0.0,
+      "result": "Exact preservation"
+    },
+    "flip_operator": {
+      "max_absolute_error": 0.0,
+      "result": "Exact preservation"
+    }
+  },
+  "associativity_tests": {
+    "test_count": 20000,
+    "nominal_associativity": {
+      "max_relative_error": 3.4e-16,
+      "result": "Holds within floating-point precision"
+    },
+    "uncertainty_associativity": {
+      "max_absolute_error": 1.7e-12,
+      "result": "Stable within FP precision"
+    }
+  },
+  "reproducibility": {
+    "deterministic": true,
+    "rng_seed": 20250926,
+    "tolerance_absolute": 1e-9,
+    "tolerance_relative": 1e-12,
+    "environment": {
+      "python": "3.10.12",
+      "numpy": "1.24.3",
+      "pandas": "2.0.2",
+      "platform": "x86_64",
+      "os": "Ubuntu 22.04 LTS"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+operator_id,operator_name,H0_impact_km_s_Mpc,uncertainty_type,uha_targets,reference
+OP1,Parallax_ZeroPoint,0.07,u_cal,MW_Cepheids,Riess2022
+OP2,Cepheid_Crowding,0.13,u_sys,SN_Calibrators,Yuan2022
+OP3,Metallicity_PL_Z,0.49,u_model,NGC4258_HII_regions,Yuan2022
+OP4,SN_ColorLaw,0.33,u_model,All_SNe,Scolnic2022
+OP5,Selection_Bias,1.00,u_sys,Flow_Contaminants,Riess2022
+OP6,NGC4258_Anchor,0.96,u_cal,NGC4258_Maser,Reid2019

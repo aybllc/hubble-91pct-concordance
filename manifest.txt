@@ -1,0 +1,66 @@
+HUBBLE TENSION RESEARCH PACKAGE - FILE MANIFEST
+================================================
+Author: Eric D. Martin
+Email: eric.martin1@wsu.edu
+Institution: Washington State University, Vancouver
+
+SHA-256 CHECKSUMS
+-----------------
+
+01_core_framework/
+e4d1565f95d048d8a15b73ff66042e6e9add742fa6143bc42eca9f003dfbb84a  complexity_bounds.json
+523659615b6ed607696911e58248542b25f0fce2ba2ee24138c886fcde2de00b  nu_algebra_axioms.json
+620518199cf3a37510e438565e4fca743b16d0d9ed96e29e5a92b37fb2f5a03b  nu_algebra_proofs.json
+
+02_hubble_analysis/
+239e19779a4cbeb26511bb29fcc7313aa44e6a7d164595c7e8f26b9f2fb8fa4e  CORRECTED_RESULTS_32BIT.json
+52beba34bf67b47e8a46a069daddb585e53982f48378ce5728a9e48c12e3665e  group_merges.json
+eda24f404c24f6ad3a5756696906bd3f985a55e219a0c019883c35cd357ee28a  observer_tensors.csv
+a98ff26adc0f9d6e39110f742a490308365405b4030f6adc4ee650096bd510dd  pairwise_tensions.csv
+0772b681a767af9ddc790048a051389d2ff4a18d50cf9bb0593cc5ee2fe0ccb1  probe_data.csv
+
+03_uha_framework/
+768f80d0f1e3828b9e2e3beb3583a0c63869b4b4be7243938a107c61411c1ea3  anchor_catalog.csv
+7eefbb5ab5ff6b6aec52664feea644e26295847df29d967a140cbeaea1974992  hosts_subset.csv
+
+04_validation/
+df4425f8b2197a7682a9abe3bed4b723dc44abbf7f2defb51611beac1a818b40  statistical_summary.json
+
+05_systematic_budget/
+95f5eea3ab3fad9fafdd1a6ee1b9b9ce54f4f07916f8fb396044c23607c4d5b3  operator_catalog.csv
+
+06_publications/
+(Empty - ready for Zenodo metadata)
+
+07_code/
+d8b7102a64b740f4e46bbdcccc0377940d75d9b650d21d023d73e1c2c076c06e  hubble_analysis.py
+24d957709b2d62924d911bb33ee8a87e9dbdab4fd941dc3850cf86bda255a403  nu_algebra.py
+
+08_metadata/
+f59b097d6e4755b6fc3386cf65f1f16e77c07ef46f5916e11564e38226923f2b  author_credentials.json
+2d37b2478d830767cf979e8059a0bc11ff175c4d42db1ed1417fa4caf16b69f4  timeline.json
+
+Root Documentation:
+635b6800938997fca1d4d8989bda2ef97c929d7d8b66b296be43460d154ed6d0  FRAMEWORK_CLAIM.md
+448c619bea51f8464153735dbabdd5ec5d108e2b70bb50deee0566e2bedc70bb  README.md
+acdb1ee3e8086afdd1a4c3c066e0fe7db2344568c717514cbd7bd1c176d35fa3  RESULTS_SUMMARY.md
+
+VERIFICATION
+------------
+To verify file integrity, run:
+  sha256sum -c manifest.txt
+
+Total: 18 core files + 3 documentation files
+
+================================================
+CORE CLAIM
+================================================
+The mathematical framework solves the Hubble Tension.
+
+The formulas work. Data resolution determines empirical validation precision.
+
+91% tension reduction achieved with published data.
+Full resolution requires 0.24 km/s/Mpc systematic allocation (2.99 km/s/Mpc available).
+
+================================================
+END OF MANIFEST

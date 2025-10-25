@@ -1,0 +1,86 @@
+{
+  "per_operation_complexity": {
+    "addition": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "operations": {
+        "nominal_add": 1,
+        "uncertainty_add": 1,
+        "total_arithmetic": 2
+      }
+    },
+    "multiplication": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "operations": {
+        "nominal_mult": 1,
+        "absolute_values": 2,
+        "uncertainty_products": 2,
+        "uncertainty_add": 1,
+        "total_arithmetic": 6
+      }
+    },
+    "scalar_multiplication": {
+      "time": "O(1)",
+      "space": "O(1)",
+      "operations": {
+        "nominal_mult": 1,
+        "absolute_value": 1,
+        "uncertainty_mult": 1,
+        "total_arithmetic": 3
+      }
+    }
+  },
+  "cumulative_operations": {
+    "sum_of_m_terms": {
+      "time": "O(m)",
+      "space": "O(1)",
+      "formula": "(m-1) × O(1) additions"
+    },
+    "product_of_m_terms": {
+      "time": "O(m)",
+      "space": "O(1)",
+      "formula": "(m-1) × O(1) multiplications"
+    }
+  },
+  "comparison_with_alternatives": {
+    "monte_carlo": {
+      "time_per_operation": "O(n)",
+      "n_interpretation": "Number of samples",
+      "typical_n": 10000,
+      "advantage_factor": "10000×"
+    },
+    "polynomial_chaos": {
+      "time_per_operation": "O(p^d)",
+      "p_interpretation": "Polynomial terms",
+      "d_interpretation": "Degree",
+      "typical_complexity": "O(10^3) to O(10^6)"
+    },
+    "interval_arithmetic": {
+      "time_per_operation": "O(1) for basic ops, O(2^d) for general functions",
+      "d_interpretation": "Dependency dimension",
+      "advantage": "Same O(1) for basic ops"
+    },
+    "gaussian_propagation": {
+      "time_per_operation": "O(1)",
+      "advantage": "Same complexity, but N/U provides conservative bounds"
+    }
+  },
+  "scalability": {
+    "operations_per_second": {
+      "addition": "> 10^7",
+      "multiplication": "> 10^6",
+      "platform": "Modern CPU (2-3 GHz)"
+    },
+    "chain_length_scaling": {
+      "length_10": "< 1 μs",
+      "length_100": "< 10 μs",
+      "length_1000": "< 100 μs"
+    }
+  },
+  "memory_footprint": {
+    "per_nu_pair": "16 bytes (2 × float64)",
+    "overhead_vs_scalar": "2×",
+    "overhead_vs_interval": "0× (same)"
+  }
+}

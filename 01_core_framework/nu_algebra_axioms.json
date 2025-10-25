@@ -1,0 +1,48 @@
+{
+  "carrier_set": {
+    "definition": "A = ℝ × ℝ≥0",
+    "interpretation": "Ordered pairs (n,u) where n is nominal, u is uncertainty"
+  },
+  "operators": {
+    "addition": {
+      "symbol": "⊕",
+      "signature": "A × A → A",
+      "definition": "(n₁,u₁) ⊕ (n₂,u₂) = (n₁+n₂, u₁+u₂)"
+    },
+    "multiplication": {
+      "symbol": "⊗",
+      "signature": "A × A → A",
+      "definition": "(n₁,u₁) ⊗ (n₂,u₂) = (n₁n₂, |n₁|u₂ + |n₂|u₁)"
+    },
+    "scalar_multiplication": {
+      "symbol": "⊙",
+      "signature": "ℝ × A → A",
+      "definition": "a ⊙ (n,u) = (an, |a|u)"
+    },
+    "catch": {
+      "symbol": "C_α",
+      "signature": "A → A",
+      "definition": "C_α(n,u) = (0, |n|+u)"
+    },
+    "flip": {
+      "symbol": "B",
+      "signature": "A → A",
+      "definition": "B(n,u) = (u, |n|)"
+    }
+  },
+  "identities": {
+    "additive": "(0, 0)",
+    "multiplicative": "(1, 0)"
+  },
+  "invariant": {
+    "definition": "M(n,u) = |n| + u",
+    "properties": [
+      "M(C_α(n,u)) = M(n,u)",
+      "M(B(n,u)) = M(n,u)"
+    ]
+  },
+  "partial_order": {
+    "definition": "(n,u) ⪯ (n',u') iff n=n' and u≤u'",
+    "interpretation": "Same nominal, smaller or equal uncertainty"
+  }
+}

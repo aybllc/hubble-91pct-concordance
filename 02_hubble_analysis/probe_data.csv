@@ -1,0 +1,7 @@
+name,H0_n,H0_u,redshift,type,era,omega_m,reference
+Planck18,67.40,0.50,1090.0,CMB,early,0.315,Planck Collaboration 2020
+DES-IDL,67.19,0.65,0.5,BAO,early,0.320,DES Collaboration 2024
+SH0ES,73.04,1.04,0.01,Cepheid,late,0.300,Riess et al. 2022
+TRGB,69.80,2.50,0.01,TRGB,late,0.300,Freedman et al. 2021
+TDCOSMO,77.10,7.20,0.3,Lens,late,0.300,Millon et al. 2020
+Megamaser,73.50,3.00,0.01,Maser,late,0.300,Pesce et al. 2020

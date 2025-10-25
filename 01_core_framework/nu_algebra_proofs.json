@@ -1,0 +1,84 @@
+{
+  "closure_properties": {
+    "addition": {
+      "statement": "⊕ : A × A → A is closed",
+      "proof_status": "proven",
+      "validation": "70000+ tests, 0 violations"
+    },
+    "multiplication": {
+      "statement": "⊗ : A × A → A is closed",
+      "proof_status": "proven",
+      "validation": "70000+ tests, 0 violations"
+    },
+    "scalar": {
+      "statement": "⊙ : ℝ × A → A is closed",
+      "proof_status": "proven",
+      "validation": "70000+ tests, 0 violations"
+    }
+  },
+  "commutativity": {
+    "addition": {
+      "statement": "x ⊕ y = y ⊕ x",
+      "proof_status": "proven",
+      "validation": "8000 tests, max error 0.0"
+    },
+    "multiplication": {
+      "statement": "x ⊗ y = y ⊗ x",
+      "proof_status": "proven",
+      "validation": "30000 tests, max error 0.0"
+    }
+  },
+  "associativity": {
+    "addition": {
+      "statement": "(x ⊕ y) ⊕ z = x ⊕ (y ⊕ z)",
+      "proof_status": "proven",
+      "validation": "20000 tests, max rel error 3.4e-16"
+    },
+    "multiplication": {
+      "statement": "(x ⊗ y) ⊗ z = x ⊗ (y ⊗ z)",
+      "proof_status": "proven",
+      "validation": "20000 tests, max rel error 3.4e-16"
+    }
+  },
+  "monotonicity": {
+    "addition": {
+      "statement": "u₁ ≤ u₂ ⇒ (n,u₁)⊕(m,v) ⪯ (n,u₂)⊕(m,v)",
+      "proof_status": "proven",
+      "validation": "30000 tests, 0 violations"
+    },
+    "multiplication": {
+      "statement": "u₁ ≤ u₂ ⇒ (n,u₁)⊗(m,v) ⪯ (n,u₂)⊗(m,v)",
+      "proof_status": "proven",
+      "validation": "30000 tests, 0 violations"
+    }
+  },
+  "sub_distributivity": {
+    "statement": "x ⊗ (y ⊕ z) ⪯ (x ⊗ y) ⊕ (x ⊗ z)",
+    "proof_status": "proven",
+    "validation": "10000 tests, 0 violations"
+  },
+  "invariant_conservation": {
+    "catch": {
+      "statement": "M(C_α(n,u)) = M(n,u)",
+      "proof_status": "proven",
+      "validation": "54 tests, max error 0.0"
+    },
+    "flip": {
+      "statement": "M(B(n,u)) = M(n,u)",
+      "proof_status": "proven",
+      "validation": "54 tests, max error 0.0"
+    }
+  },
+  "cumulative_formulas": {
+    "sum": {
+      "statement": "⊕ᵢ₌₁ⁿ (nᵢ,uᵢ) = (∑nᵢ, ∑uᵢ)",
+      "proof_status": "proven",
+      "validation": "8000 tests, max rel error 1.0e-15"
+    },
+    "product": {
+      "statement": "⊗ᵢ₌₁ⁿ (nᵢ,uᵢ) = (∏nᵢ, ∑|∏ⱼ≠ᵢ nⱼ|uᵢ)",
+      "proof_status": "proven",
+      "validation": "3200 tests, max rel error 1.7e-12"
+    }
+  }
+}

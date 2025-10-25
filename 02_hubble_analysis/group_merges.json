@@ -1,0 +1,26 @@
+{
+  "early_universe": {
+    "H0_n": 67.3219,
+    "H0_u": 0.3963,
+    "interval": [66.9256, 67.7182],
+    "probes": ["Planck18", "DES-IDL"]
+  },
+  "late_universe": {
+    "H0_n": 72.7198,
+    "H0_u": 0.9072,
+    "interval": [71.8126, 73.6270],
+    "probes": ["SH0ES", "TRGB", "TDCOSMO", "Megamaser"]
+  },
+  "tensor_extended_merge": {
+    "H0_n": 69.7887,
+    "H0_u": 3.3600,
+    "interval": [66.4287, 73.1487],
+    "epistemic_distance": 1.0034,
+    "expansion_factor": 5.1554,
+    "concordance": {
+      "early_contained": true,
+      "late_contained": false,
+      "gap_remaining": 0.4783
+    }
+  }
+}
