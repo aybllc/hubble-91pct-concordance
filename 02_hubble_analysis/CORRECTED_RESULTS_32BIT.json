@@ -122,7 +122,7 @@
     "methodology_status": "Standard inverse variance weighting used throughout",
     "tensor_refinement": "Precision-dependent zero_a adjustment applied (see methodology notes)",
     "data_source": "Published H0 measurements unchanged from literature",
-    "numerical_precision": "32-bit coordinate depth for UHA calculations",
+    "numerical_precision": "32-bit coordinate depth for high-precision calculations",
     "reproducibility": "All calculations deterministic with documented formulas"
   },
   "honest_assessment": {
@@ -132,7 +132,7 @@
     "data_requirements_for_full_resolution": [
       "Empirical observer tensor calibration from MCMC chains",
       "Additional probes in intermediate redshift regime (z=0.1-0.5)",
-      "Systematic operator implementation with UHA localization"
+      "Systematic operator implementation with object-level indexing"
     ],
     "phd_contribution": "Novel framework validated on real cosmological problem with clear path to full resolution"
   }

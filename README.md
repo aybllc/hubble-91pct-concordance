@@ -23,7 +23,7 @@ This package contains the complete N/U algebra tensor extension framework, empir
 
 ### Empirical Application
 - **6 H₀ probes**: Planck18, DES-IDL, SH0ES, TRGB, TDCOSMO, Megamaser
-- **32-bit precision**: UHA coordinate system calculations
+- **32-bit precision**: high-precision coordinate calculations
 - **Published data**: All measurements from peer-reviewed literature
 
 ### Results
@@ -40,7 +40,7 @@ This package contains the complete N/U algebra tensor extension framework, empir
 ```
 /01_core_framework/     - N/U algebra axioms, theorems, complexity bounds
 /02_hubble_analysis/    - H₀ measurements, tensors, corrected 32-bit results
-/03_uha_framework/      - Universal coordinate system, anchor catalog, host galaxies
+/03_data/      - object catalog, anchor catalog, host galaxies
 /04_validation/         - 70,000+ test results, statistical summary
 /05_systematic_budget/  - Systematic operator catalog and impact estimates
 /06_publications/       - Published DOI metadata
@@ -126,7 +126,7 @@ The Hubble Tension is not evidence of new physics. It is a measurement problem r
 1. **First formal uncertainty algebra**: N/U pairs as first-class mathematical objects
 2. **Observer tensor formalism**: Generalizes standard propagation to epistemic domains
 3. **Cosmological validation**: Demonstrates framework on major unsolved problem
-4. **Systematic approach**: UHA localization enables targeted error allocation
+4. **Systematic approach**: object-level indexing enables targeted error allocation
 
 ### What This Work Achieves
 

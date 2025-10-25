@@ -77,7 +77,7 @@ This work demonstrates:
 
 **Remaining work**:
 - Empirical observer tensor calibration from MCMC chains
-- Systematic operator implementation with UHA localization
+- Systematic operator implementation with object-level indexing
 - Additional intermediate-redshift probes
 
 **Core claim**: The formulas work. Data resolution determines how precisely we validate them.

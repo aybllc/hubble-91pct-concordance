@@ -1,6 +1,6 @@
 # Hubble Tension Resolution: Complete Analysis
 
-**Framework:** N/U Algebra × UHA × Seven-Layer Provenance  
+**Framework:** N/U Algebra × Seven-Layer Provenance  
 **Author:** Eric D. Martin  
 **Date:** 2025-10-09  
 **Status:** ✅ PHASES A-D COMPLETE
@@ -23,7 +23,7 @@
 ## What We Built
 
 ### Phase A: Data Pinning ✅
-- **3,988 objects** encoded with UHA identifiers
+- **3,988 objects** encoded with object identifiers
 - **Planck 2018** cosmology as CosmoID-E0-LCDM
 - **Seven-Layer provenance** for reproducibility
 - **Initial tension:** δ* = 2.05 km/s/Mpc confirmed
@@ -41,7 +41,7 @@
 - **Global intersection:** EMPTY - no H₀ fits all
 
 ### Phase D: Systematic Localization ✅
-- **6 operators** cataloged and UHA-indexed
+- **6 operators** cataloged and indexed
 - **Impact estimates** for each systematic
 - **Combination tests** performed
 - **Conclusion:** No single operator closes gap
@@ -109,21 +109,21 @@ TARGET NEEDED:                2.10 km/s/Mpc
 
 ---
 
-## UHA Framework Contribution
+## Coordinate System Contribution
 
 ### Object-Level Traceability
 
-Every measurement is UHA-indexed:
+Every measurement is indexed:
 ```
-UHA::NGC4258::maser::J1210+4711::ICRS2016
+NGC4258::maser::J1210+4711::ICRS2016
   → Anchor distance: 7.576 ± 0.112 Mpc
   → Operators: [OP6_NGC4258]
   
-UHA::NGC4258::HII_b15::RA184.73279_DEC47.30519::ICRS2000
+NGC4258::HII_b15::RA184.73279_DEC47.30519::ICRS2000
   → Metallicity: Z_PP04 = 8.80 ± 0.05
   → Operators: [OP3_Metallicity]
   
-UHA::SN::2011fe::RA210.774_DEC54.2737::ICRS2016
+SN::2011fe::RA210.774_DEC54.2737::ICRS2016
   → Calibrator SN with Cepheid host
   → Operators: [OP4_SNColorLaw]
 ```
@@ -133,7 +133,7 @@ UHA::SN::2011fe::RA210.774_DEC54.2737::ICRS2016
 1. **Cosmology-portable:** CosmoID enables re-analysis under any prior
 2. **Operator mapping:** Direct link from object → systematic source
 3. **Localization:** Can identify which objects drive δ*
-4. **Reproducible:** Anyone can verify with same UHA IDs
+4. **Reproducible:** Anyone can verify with same object IDs
 
 ---
 
@@ -239,7 +239,7 @@ I_CMB ∩ I_SH0ES = ∅  (EMPTY)
 **Implement in framework:**
 1. Create CosmoID-EDE with early dark energy
 2. Recompute R_H(a) under modified expansion
-3. Re-decode all UHA coordinates
+3. Re-decode all coordinates
 4. Test if one H₀ fits both early + late
 
 **Requirements:**
@@ -269,7 +269,7 @@ I_CMB ∩ I_SH0ES = ∅  (EMPTY)
    - Proves tension survives worst-case error bars
 
 2. **Object-Level Traceability**
-   - UHA links every measurement to sky position
+   - Coordinate system links every measurement to sky position
    - Operators map to specific objects
    - Can localize systematic sources
 
@@ -301,14 +301,14 @@ I_CMB ∩ I_SH0ES = ∅  (EMPTY)
 
 ### Documentation
 
-1. **Phase A Report** - Data pinning and UHA registry
+1. **Phase A Report** - Data pinning and object registry
 2. **Phase B Status** - N/U pipeline validation
 3. **Phase C/D Results** - Multi-probe analysis (this document)
 4. **Complete Summary** - Executive overview
 
 ### Code
 
-1. **Phase A:** Data loading and UHA generation
+1. **Phase A:** Data loading and coordinate generation
 2. **Phase B:** N/U H₀ calculation
 3. **Phase C:** Interval intersection and δ* matrix
 4. **Phase D:** Systematic operator framework
@@ -317,7 +317,7 @@ I_CMB ∩ I_SH0ES = ∅  (EMPTY)
 
 ## Conclusion
 
-**Using conservative N/U algebra bounds, UHA object traceability, and Seven-Layer provenance, we confirm:**
+**Using conservative N/U algebra bounds, object traceability, and Seven-Layer provenance, we confirm:**
 
 1. ✅ Hubble tension is REAL (~6 km/s/Mpc)
 2. ✅ Significance is ROBUST (~5σ)
@@ -342,7 +342,7 @@ I_CMB ∩ I_SH0ES = ∅  (EMPTY)
 
 ---
 
-*Analysis Framework: N/U Algebra + UHA + Seven-Layer*  
+*Analysis Framework: N/U Algebra + Seven-Layer Provenance*  
 *Date: 2025-10-09*  
 *Author: Eric D. Martin*  
 *Status: Complete - Phases A-D*
