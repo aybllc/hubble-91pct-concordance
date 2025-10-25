@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the archived dataset."
+type: software
+title: "Conservative Uncertainty Propagation and Hubble Tension Resolution"
+abstract: "N/U algebra tensor extension framework achieving 91% Hubble Tension reduction through conservative uncertainty propagation."
+authors:
+  - family-names: "Martin"
+    given-names: "Eric D."
+    email: "eric.martin1@wsu.edu"
+    affiliation: "Washington State University, Vancouver"
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.17322471
+    description: "Zenodo archive of complete dataset and code"
+repository-code: "https://github.com/aybllc/hubble-91pct-concordance"
+keywords:
+  - "Hubble tension"
+  - "cosmology"
+  - "uncertainty quantification"
+  - "N/U algebra"
+  - "observer domain tensors"
+license: MIT
+version: "1.0.0"
+date-released: "2025-10-24"
