@@ -1,0 +1,47 @@
+{
+  "title": "91% Hubble Tension Concordance — N/U Algebra + UHA Coordinate Encoding",
+  "description": "Primary published result for N/U Algebra + Observer Tensor Hubble tension resolution. 91% tension reduction (5.40 → 0.48 km/s/Mpc) using 6 independent H₀ probes. v1.2.0 adds UHA ξ encoding demonstration and CLARIFICATION.md restoring Universal Horizon Address references post patent filing (US 63/902,536). Includes anchor catalog with ξ values for 52 NGC 4258 HII objects.",
+  "upload_type": "software",
+  "creators": [
+    {
+      "name": "Martin, Eric D.",
+      "affiliation": "All Your Baseline LLC"
+    }
+  ],
+  "keywords": [
+    "Hubble tension",
+    "N/U Algebra",
+    "Universal Horizon Address",
+    "UHA",
+    "xi normalization",
+    "cosmological concordance",
+    "H0 tension",
+    "observer domain tensors",
+    "OMMP",
+    "M31",
+    "M81",
+    "M101",
+    "NGC4258",
+    "LMC",
+    "Milky Way"
+  ],
+  "license": "cc-by-4.0",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.17435574",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.19154280",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    },
+    {
+      "identifier": "10.5281/zenodo.17172694",
+      "relation": "isSupplementTo",
+      "scheme": "doi"
+    }
+  ],
+  "notes": "Patent US 63/902,536 filed 2025-10-21. UHA references were obfuscated in v1.0.0-v1.0.1 for IP protection. v1.2.0 restores full UHA context via CLARIFICATION.md and uha_xi_encoding.py."
+}
